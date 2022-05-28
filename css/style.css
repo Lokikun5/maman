@@ -1,0 +1,62 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.acceil{
+    width: 100%;
+    height: 100%;
+    background: #333 url('../img/workplace-g841daa819_1920.jpg') center / cover no-repeat;
+
+}
+h1{
+    font-size: 3.5em;
+}
+p{
+    font-size: 4em;
+    margin-left: 100px;
+}
+.cont{
+    padding-top:200px;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+i:hover{
+    transition: 500ms;
+    color: red;
+    cursor: pointer;
+}
+.koko{
+
+    animation: koko 3s linear 500ms infinite alternate;
+   
+}
+
+@keyframes koko{
+    0%{
+        transform: scale3d(1,1,1);
+        color: aqua;
+    }
+    50%{
+        color: blueviolet;
+        
+    }
+    100%{
+        transform: scale3d(2,2,2);
+        color: red;
+        
+    }
+}
