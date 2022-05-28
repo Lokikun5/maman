@@ -10,7 +10,7 @@ typewriter
 
 .typeString('Joyeuse fête à toutes les ')
 .pauseFor(100)
-.typeString(' <span style ="color: #27ae60"><strong>Maman</strong></span>')
+.typeString(' <span style ="color: #27ae60"><strong>Mamans</strong></span>')
 .pauseFor(500)
 .typeString(' !')
 .start();
@@ -24,7 +24,7 @@ var txtAnim2 = new Typewriter(txtAnim2, {
 
 typewriter
 .pauseFor(600)
-.typeString('<br> We Love U')
+.typeString('<br> <span style ="color: #DE2E6C">We Love U</span>')
 .pauseFor(100)
 .typeString('😘')
 .pauseFor(500)

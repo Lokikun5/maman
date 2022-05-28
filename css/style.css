@@ -60,3 +60,29 @@ i:hover{
         
     }
 }
+
+.flash{
+    animation: flash 2s infinite;
+}
+
+@keyframes flash{
+    0%{
+        color: #DE2E6C;
+        
+    }
+    25%{
+        color: #DE2E6C;
+        filter: brightness(1.1);
+    }
+    50%{
+        color: #5d2ede;
+    }
+    75%{
+        color: #5d2ede;
+        filter: brightness(1.1);
+    }
+    100%{
+        color: #DF77FB;
+        filter: brightness(1.1);
+    }
+}
